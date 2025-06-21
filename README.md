@@ -29,7 +29,7 @@ Built with HTML, CSS, and JavaScript (via Vite)
 
 ## 🚀 Demo
 
-Check it out live: Live demo website (https://devify-x.vercel.app/)
+Check it out live: https://devify-x.vercel.app/
 
 ## 👩‍💻 Author
 - Komal
