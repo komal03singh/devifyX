@@ -1,5 +1,5 @@
 
-# 🌐 devifyX – Redesigned Website(Assignment Project)
+# 🌐 devifyX – Assignment Project
 
 A revamped version of devifyX featuring a sleek tab-switcher navigation and engaging animations.
 
