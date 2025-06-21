@@ -12,7 +12,7 @@ function Home() {
               initial={{opacity:0 ,y:100}}
               animate={{y:-10,opacity:1}}
               transition={{duration:1}}
-              className='text-4xl md:5xl lg:text-5xl font-extralight md:max-w-8/12 lg:max-w-8/12 tracking-wide'>Launch your tech resume with <span className=' font-bold underline decoration-cyan-400 dark:decoration-cyan-200 decoration-wavy'>devify<span className='bg-gradient-to-r from-blue-700 to-blue-300 bg-clip-text text-transparent'>X</span></span></motion.h2>
+              className='text-4xl md:5xl lg:text-5xl font-extralight md:max-w-8/12 lg:max-w-8/12 tracking-wide'>Launch your tech resume with <span className='font-extrabold md:font-black lg:font-black underline decoration-cyan-400 dark:decoration-cyan-200 decoration-wavy'>devify<span className='bg-gradient-to-r from-blue-700 to-blue-300 bg-clip-text text-transparent'>X</span></span></motion.h2>
               
             <motion.p
               initial={{opacity:0 ,y:100}}
