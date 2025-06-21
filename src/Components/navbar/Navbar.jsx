@@ -47,22 +47,30 @@ function Navbar({ActiveTab,setActiveTab}) {
 
           <div className='hidden lg:flex md:flex'>
             <ul className='flex h-full gap-8 font-medium text-base dark:text-black hover:cursor-pointer'>
-              <li onClick={()=>setActiveTab('home')} 
-              className={`${ActiveTab ==='home'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}          
-              >Home</li>
+              <button>
+                <li onClick={()=>setActiveTab('home')} 
+                className={`${ActiveTab ==='home'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}          
+                >Home</li>
+              </button>
 
-              <li onClick={()=>setActiveTab('whyus')}
+              <button>
+                <li onClick={()=>setActiveTab('whyus')}
                 className={`${ActiveTab ==='whyus'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}
-              >Why Us?</li>
-              <li
-              
-              onClick={()=>setActiveTab('features')}
-              className={`${ActiveTab ==='features'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}
-              >Features</li>
-              <li 
-              onClick={()=>setActiveTab('contact')}
-              className={`${ActiveTab ==='contact'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}
-              >Contact</li>
+                >Why Us?</li>
+              </button>
+
+              <button>
+                <li onClick={()=>setActiveTab('features')}
+                className={`${ActiveTab ==='features'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}
+                >Features</li>
+              </button>
+
+              <button>
+                <li onClick={()=>setActiveTab('contact')}
+                className={`${ActiveTab ==='contact'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}
+                >Contact</li>
+              </button>
+
             </ul>
           </div>
 
@@ -100,8 +108,7 @@ function Navbar({ActiveTab,setActiveTab}) {
               <div onClick={toggleTheme} className='flex items-center justify-center h-8 w-8 p-1 text-black text-2xl'><TbMoonFilled /></div>
 
             }
-            
-          </div>
+            </div>
           </div>
         </div>
   </div>
