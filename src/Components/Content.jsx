@@ -11,53 +11,45 @@ function Content({ActiveTab}) {
       <div
       className='mt-8 h-[500px] w-11/12'>
         {ActiveTab ==='home' && 
-
-        <motion.div
-        
-        >
-            <Home/>
+        <motion.div>
+          <Home/>
         </motion.div>
         }
 
         {ActiveTab ==='whyus' && 
-
         <motion.div
         initial={{opacity:0 ,x:200}}
         animate={{opacity:1,x:0}}
         transition={{duration:1.2}}
         >
-            <Whyus/>
+          <Whyus/>
         </motion.div>
         
         }
 
         {ActiveTab ==='features' && 
-
         <motion.div
         initial={{opacity:0 ,x:200}}
         animate={{opacity:1,x:0}}
         transition={{duration:1.2}}
         >
-           <Features/>
+          <Features/>
         </motion.div>
         
         }
 
         {ActiveTab ==='contact' && 
-
         <motion.div
         initial={{opacity:0}}
         animate={{opacity:1}}
         transition={{duration:1.2}}
         >
-            <Contact/>
+          <Contact/>
         </motion.div>
         
         }
 
       </div>
-
-      
     </div>
   )
 }

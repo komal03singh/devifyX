@@ -7,10 +7,6 @@ import { MdOutlineAppSettingsAlt } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 
 
-
-
-
-
 function Navbar({ActiveTab,setActiveTab}) {
 
   const [theme,setTheme] = useState('dark')
@@ -78,8 +74,8 @@ function Navbar({ActiveTab,setActiveTab}) {
             <ul className='py-2 flex h-full gap-6 dark:text-black hover:cursor-pointer'>
 
               <li className='text-[10px] font-semibold' onClick={()=>setActiveTab('home')}>
-                  <div className='flex items-center justify-center text-xl text-white dark:text-black'><IoHomeSharp /></div>
-                  <p className={`${ActiveTab ==='home'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}>Home</p>                 
+                <div className='flex items-center justify-center text-xl text-white dark:text-black'><IoHomeSharp /></div>
+                <p className={`${ActiveTab ==='home'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}>Home</p>                 
               </li>
 
               <li className='text-[10px] font-semibold' onClick={()=>setActiveTab('whyus')}>

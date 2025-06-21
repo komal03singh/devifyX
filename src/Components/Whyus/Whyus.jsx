@@ -4,11 +4,14 @@ import { motion } from 'motion/react'
 function Whyus() {
   return (
     <div className='flex flex-col px-4 h-[500px] items-center text-center gap-6'>
+      
       <div className='flex flex-col gap-6 mt-6'>
         <h2 className='text-4xl font-extralight'>Why <span className=' font-bold tracking-wide'>devify<span className='bg-gradient-to-r from-blue-700 to-blue-300 bg-clip-text text-transparent'>X</span></span> Works ?</h2>
         <p className='text-lg font-extralight text-gray-600 dark:text-gray-300'>We bridge the gap between learning and employability by helping students build portfolio-worthy projects that recruiters love.</p>
       </div>
+
       <div className='flex flex-col lg:flex-row gap-4 p-4 lg:mt-5'>
+        
         <motion.div
           initial={{y:100,opacity:0}}
           animate={{y:0,opacity:1}}

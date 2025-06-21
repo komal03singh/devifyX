@@ -4,12 +4,13 @@ import { motion } from 'motion/react'
 function Features() {
   return (
     <div className='flex flex-col px-4 h-[500px] items-center text-center gap-8'>
+
           <div className='mt-6'>
             <h2 className='text-4xl font-extralight tracking-wide'>How <span className=' font-bold'>devify<span className='bg-gradient-to-r from-blue-700 to-blue-300 bg-clip-text text-transparent'>X</span></span> Helps You Get Hired ?</h2>
           </div>
-          <div className='flex flex-col lg:flex-row gap-4 p-4 lg:mt-5'>
 
-            <motion.div
+          <div className='flex flex-col lg:flex-row gap-4 p-4 lg:mt-5'>
+`           <motion.div
               initial={{y:100,opacity:0}}
               animate={{y:0,opacity:1}}
               transition={{duration:0.5}}

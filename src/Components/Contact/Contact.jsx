@@ -5,9 +5,11 @@ function Contact() {
   return (
     <div className='flex flex-col p-4 h-[500px] items-center justify-center'>
       <motion.h1
-      animate={{scale:[1,1,1.2,1]}}
-      transition={{duration:1.5}}
-      className='text-center text-4xl font-semibold p-2 tracking-wide'>Stay Informed. Build Better.</motion.h1>
+        nimate={{scale:[1,1,1.2,1]}}
+        transition={{duration:1.5}}
+        className='text-center text-4xl font-semibold p-2 tracking-wide'>Stay Informed. Build Better.
+      </motion.h1>
+      
       <p className='text-center text-base font-extralight p-2 text-gray-600 dark:text-gray-300'>Subscribe to get notified when we launch and receive exclusive project templates right in your inbox.</p>
 
       <div className='py-6'>

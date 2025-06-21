@@ -8,6 +8,7 @@ function Home() {
       <div className='h-full flex flex-col'>
         <div className='h-full w-full flex lg:pl-10'>
           <div className='flex flex-col mt-6 md:mt-12 lg:mt-15 gap-8 lg:gap-8 md:w-3/4 lg:w-3/4'>
+
             <motion.h2 
               initial={{opacity:0 ,y:100}}
               animate={{y:-10,opacity:1}}
@@ -21,9 +22,9 @@ function Home() {
               className='w-4/5 text-base md:text-lg lg:text-lg font-extralight text-gray-600 dark:text-gray-300'>We provide real, coding resume simulator and professional helpers to build you market ready resume.</motion.p>
             
             <div className='flex mt-5 md:mt-8 lg:mt-2 gap-4 md:gap-8 lg:gap-6 font-light'>
-            <motion.button whileHover={{scale:1.1}} transition={{duration: 0.4 }} className='text-sm md:text-lg lg:text-lg border px-4 py-2 rounded-lg font-medium border-cyan-400/80 dark:border-cyan-200/50'>Pre Order Now!</motion.button>
-            <motion.button whileHover={{scale:1.1}} transition={{duration: 0.4 }} className='text-sm md:text-lg lg:text-lg border px-4 py-2 rounded-lg font-medium border-cyan-400/80 dark:border-cyan-200/50'>Get in Touch</motion.button>
-        </div>
+              <motion.button whileHover={{scale:1.1}} transition={{duration: 0.4 }} className='text-sm md:text-lg lg:text-lg border px-4 py-2 rounded-lg font-medium border-cyan-400/80 dark:border-cyan-200/50'>Pre Order Now!</motion.button>
+              <motion.button whileHover={{scale:1.1}} transition={{duration: 0.4 }} className='text-sm md:text-lg lg:text-lg border px-4 py-2 rounded-lg font-medium border-cyan-400/80 dark:border-cyan-200/50'>Get in Touch</motion.button>
+            </div>
           </div>
         </div>
       </div>
@@ -39,7 +40,6 @@ function Home() {
 
       {/*For Large and Medium Screen*/}
       <div className='hidden relative md:flex lg:flex mt-15 w-1/2 h-full'>
-
         <div className='absolute -z-10 '>
           <motion.img
             initial={{x:40,y:130,opacity:0}}
@@ -66,8 +66,7 @@ function Home() {
         <motion.span initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1,delay:0.4,repeat:Infinity}}> . </motion.span>
         </h2>
       </div>
-      
-
+    
     </div>
   )
 }
