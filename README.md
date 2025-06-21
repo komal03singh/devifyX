@@ -1,12 +1,37 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 devifyX – Assignment Project
 
-Currently, two official plugins are available:
+A revamped version of devifyX featuring a sleek **tab-switcher navigation and engaging animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Overview
 
-## Expanding the ESLint configuration
+This is a redesign of the devifyX website, crafted as an assignment project. It enhances user experience by introducing a tab-based navigation system and various interactive animations that bring the site to life.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Features
+
+Responsive tab-switcher navigation for seamless page transitions
+
+Subtle animations enhancing user interaction
+
+Clean and modern UI/UX design
+
+Built with HTML, CSS, and JavaScript (via Vite)
+
+
+## 🛠️ Built With
+
+- Languages and Frameworks - Javascript, React.js, Tailwind CSS
+
+- Animations - Framer motion 
+ 
+- Vite – development server and build tool
+
+
+## 🚀 Demo
+
+Check it out live: https://devify-x.vercel.app/
+
+## 👩‍💻 Author
+- Komal
+- [GitHub Profile](https://github.com/komal03singh)
+
