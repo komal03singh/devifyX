@@ -1,13 +1,13 @@
 
-# 🌐 devifyX – Assignment Project
+## 🌐 devifyX – Assignment Project
 
-A revamped version of devifyX featuring a sleek tab-switcher navigation and engaging animations.
+A revamped version of devifyX featuring a sleek **tab-switcher navigation and engaging animations.
 
-# 🔍 Overview
+## 🔍 Overview
 
 This is a redesign of the devifyX website, crafted as an assignment project. It enhances user experience by introducing a tab-based navigation system and various interactive animations that bring the site to life.
 
-# ⚙️ Features
+## ⚙️ Features
 
 Responsive tab-switcher navigation for seamless page transitions
 
@@ -18,16 +18,20 @@ Clean and modern UI/UX design
 Built with HTML, CSS, and JavaScript (via Vite)
 
 
-# 🛠️ Built With
+## 🛠️ Built With
 
-Languages and Frameworks - Javascript, React.js, Tailwind CSS
+- Languages and Frameworks - Javascript, React.js, Tailwind CSS
 
-Animations - Framer motion 
+- Animations - Framer motion 
  
-Vite – development server and build tool
+- Vite – development server and build tool
 
 
 # 🚀 Demo
 
-Check it out live: 
+Check it out live: Live demo website (https://devify-x.vercel.app/)
+
+## 👩‍💻 Author
+- Komal
+- [GitHub Profile](https://github.com/komal03singh)
 
