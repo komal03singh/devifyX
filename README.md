@@ -27,7 +27,7 @@ Built with HTML, CSS, and JavaScript (via Vite)
 - Vite – development server and build tool
 
 
-# 🚀 Demo
+## 🚀 Demo
 
 Check it out live: Live demo website (https://devify-x.vercel.app/)
 
