@@ -59,8 +59,8 @@ function Home() {
 
       </div>
 
-      <div className='my-10 lg:hidden md:hidden p-4'>
-        <h2 className='text-3xl font-light tracking-wider text-black/90 dark:text-white/90'>Launching Soon
+      <div className='my-12 lg:hidden md:hidden'>
+        <h2 className='text-xl font-light tracking-wider text-black/80 dark:text-white/90'>Launching Soon
         <motion.span initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1, repeat:Infinity}} > . </motion.span>
         <motion.span initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1,delay:0.2,repeat:Infinity}}> . </motion.span>
         <motion.span initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1,delay:0.4,repeat:Infinity}}> . </motion.span>

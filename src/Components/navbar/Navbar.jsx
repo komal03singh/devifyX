@@ -41,7 +41,7 @@ function Navbar({ActiveTab,setActiveTab}) {
     <div className='flex justify-center mt-10 lg:mt-6'>
         <div className='flex justify-between gap-4 items-center bg-black/90 text-white dark:bg-white/90 h-14 w-80 md:h-18 md:w-11/12 lg:h-18 lg:w-11/12 rounded-full px-10'>
 
-          <div className='border-1 hidden md:flex lg:flex justify-center items-center dark:text-black font-black text-3xl'>
+          <div className='hidden md:flex lg:flex justify-center items-center dark:text-black font-black text-3xl'>
             <p>devify<span className='bg-gradient-to-r from-blue-700 to-blue-300 bg-clip-text text-transparent'>X</span></p>
           </div>
 
