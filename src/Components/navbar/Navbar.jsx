@@ -42,26 +42,26 @@ function Navbar({ActiveTab,setActiveTab}) {
           </div>
 
           <div className='hidden lg:flex md:flex'>
-            <ul className='flex h-full gap-8 font-medium text-base dark:text-black hover:cursor-pointer'>
-              <button>
+            <ul className='flex h-full gap-8 font-medium text-base dark:text-black'>
+              <button className='hover:cursor-pointer'>
                 <li onClick={()=>setActiveTab('home')} 
                 className={`${ActiveTab ==='home'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}          
                 >Home</li>
               </button>
 
-              <button>
+              <button className='hover:cursor-pointer'>
                 <li onClick={()=>setActiveTab('whyus')}
                 className={`${ActiveTab ==='whyus'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}
                 >Why Us?</li>
               </button>
 
-              <button>
+              <button className='hover:cursor-pointer'>
                 <li onClick={()=>setActiveTab('features')}
                 className={`${ActiveTab ==='features'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}
                 >Features</li>
               </button>
 
-              <button>
+              <button className='hover:cursor-pointer'>
                 <li onClick={()=>setActiveTab('contact')}
                 className={`${ActiveTab ==='contact'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}
                 >Contact</li>
@@ -71,24 +71,24 @@ function Navbar({ActiveTab,setActiveTab}) {
           </div>
 
           <div className='lg:hidden md:hidden'>
-            <ul className='py-2 flex h-full gap-6 dark:text-black hover:cursor-pointer'>
+            <ul className='py-2 flex h-full gap-6 dark:text-black'>
 
-              <li className='text-[10px] font-semibold' onClick={()=>setActiveTab('home')}>
+              <li className='text-[10px] font-semibold hover:cursor-pointer' onClick={()=>setActiveTab('home')}>
                 <div className='flex items-center justify-center text-xl text-white dark:text-black'><IoHomeSharp /></div>
                 <p className={`${ActiveTab ==='home'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}>Home</p>                 
               </li>
 
-              <li className='text-[10px] font-semibold' onClick={()=>setActiveTab('whyus')}>
+              <li className='text-[10px] font-semibold hover:cursor-pointer' onClick={()=>setActiveTab('whyus')}>
                 <div className='flex items-center justify-center text-xl text-white dark:text-black'><FaQuestionCircle /></div>
                 <p className={`${ActiveTab ==='whyus'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}>WhyUs?</p>
               </li>
 
-              <li className='text-[10px] font-semibold' onClick={()=>setActiveTab('features')}>
+              <li className='text-[10px] font-semibold hover:cursor-pointer' onClick={()=>setActiveTab('features')}>
                 <div className='flex items-center justify-center text-xl text-white dark:text-black'><MdOutlineAppSettingsAlt /></div>
                 <p className={`${ActiveTab ==='features'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}>Features</p>
               </li>
               
-              <li className='text-[10px] font-semibold' onClick={()=>setActiveTab('contact')}>
+              <li className='text-[10px] font-semibold hover:cursor-pointer' onClick={()=>setActiveTab('contact')}>
                 <div className='flex items-center justify-center text-xl text-white  dark:text-black'><FaPhone /></div>
                 <p className={`${ActiveTab ==='contact'? 'bg-gradient-to-r from-blue-500 to-blue-300 dark:from-blue-700 dark:to-blue-400 bg-clip-text text-transparent' : ''}`}>Contact</p>
               </li>
